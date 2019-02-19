@@ -1,0 +1,26 @@
+Things i want to do with this Game:
+
+Version 1:
+	- smoother controlling with Game State
+		- app_state
+			- input_state
+			- ui_state
+			- game_state
+	- drawing algorithm one time Field and only Stone should be redrawn
+	- add animation of line removement(maybe in Version 2 first)(Prio. 2)
+	- add Options UI with all kind of states
+	- More specific Scoring Algorithm(Prio. 3)
+	- cleanup and document code(Prio. 1)
+
+done:
+	- rewrite field draw calculation for start extreme Tetris
+		- here we have to interpolate block_size
+		- Adding simple Sounds
+Version 2:
+	- add usage of customizing Textures
+
+Version 3:
+	- add features like:
+		- rocket, bombs different Stones away
+		- antigravity, for a specific time frame the stone movement slows down
+		- wormhole, you can goto the left and stone reaches the right side and reverse
